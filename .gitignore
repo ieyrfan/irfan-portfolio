@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Azure
+.azure/
+
+# QA outputs (large files)
+qa-*-output/
+qa-*.png
+qa-*.md
+qa-*.json
+
+# Design iterations
+portfolio-v*.css
+!portfolio-v11.css
+
+# Temporary files
+tmp/
+*.tmp
+*.temp
+
+# Large assets not needed for deployment
+*.docx
+*.pdf
+mobile-hero.png
+mobile-projects.png
+qa-*.png
+qa-exit-1440.png
+qa-deployments-1440.png
+qa-mobile-390.png
+qa-removal-cloud.png
+qa-security-1440.png
+qa-transition-1440.png
+
+# Redundant design files
+DESIGN - Copy.md
+ANALYTICS - Copy.md
+professional.css
+details.css
+terminal.js
+tilt.js
+navigation.js
+experience.js
+script - Copy.js
+style - Copy.css
